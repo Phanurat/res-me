@@ -79,19 +79,92 @@ document.addEventListener('DOMContentLoaded', () => {
     </p>
     <br>
     <hr>
+    <br>
+    <h3>NSC 25</h3>
+    <h4>Competitor 2023</h4>
+    <p> Create mobile games with Unity3D About the game: It is a computer science
+        problem solving game.
+    </p>
+    <br>
+    <hr>
+    <br>
+    <h3>Content Creator</h3>
+    <h4>Part Time 2022</h4>
+    <p> I used to do Content Creator of tiktok platform.and design product promotions
+        on Shoppee and Lazada. I have 1 year of internship experience as a computer
+        repair technician and have worked as a freelancer in design.
+    </p>
+    <br>
+    <hr>
+    <br>
+    <h3>Interests</h3>
+    <p> Passionate and motivated individual seeking opportunities in Web3 and AI
+        domains. Currently focusing on the study and application of Blockchain
+        technology and smart contracts. Actively developing a decentralized application
+        (DApp) on the Binance Smart Chain Testnet. Eager to leverage my skills and
+        knowledge in Web3 and AI to contribute to innovative projects and solutions
+    </p>
+    <br>
+    <hr>
+  `
+  document.getElementById('education').innerHTML = `
+    <h2>Education</h2>
+    <hr>
+    <br>
+    <h3>Thonburi University</h3>
+    <h4>Science and Technology</h4>
+    <h5>Data science and information Technology</h>5
+    <br>
+    <br>
+    <hr>
+    <br>
+    <h3>Kalasin Vocational College</h3>
+    <h4>Information Technology</h4>
+    <br>
+    <hr>
+    <br>
+    <h3>Rongkham School</h3>
+    <h4>Language Science</h4>
+    <br>
+    <hr>
   `
 
   // เติมเนื้อหา Projects
   const projects = [
     {
-      title: 'Pipeline Automation with CI/CD for dApps',
-      link: 'https://github.com/username/project1',
-      desc: 'สร้างระบบอัตโนมัติสำหรับ deploy decentralized applications ด้วย GitHub Actions และ Kubernetes'
+      title: 'Web3 Dapp',
+      link: 'https://cnp-blockchain-energyplus.duckdns.org/',
+      desc: 'สร้าง Dapp Web3 ให้กับกระทรวงนวัตกรรม'
     },
     {
-      title: 'AI Smart Contract Auditor',
-      link: 'https://github.com/username/project2',
-      desc: 'พัฒนา AI ช่วยตรวจสอบช่องโหว่ใน smart contract เพื่อเพิ่มความปลอดภัย'
+      title: 'Model AI Detection Image Processing',
+      link: 'https://huggingface.co/Phanurat/Detect-Post-Facebook',
+      desc: 'Model ตัวนี้ใช้สำหรับการตรวจจับโพสของ Facebook เพื่อจะทำการ Detect Layout'
+    },
+    {
+      title: 'Dapp create web3 Token crypto',
+      link: 'https://github.com/Phanurat/web3.js',
+      desc: 'สร้างเว็บ3 สำหรับการรับเหรียญที่สร้างด้วย Smart Contract'
+    },
+    {
+      title: 'Bot Line Notify',
+      link: 'https://www.youtube.com/watch?v=Bh_Ht5fIch8',
+      desc: 'ระบบแจ้งเตือน Line Bot แบบไม่จำกัดข้อความ'
+    },
+    {
+      title: 'Website System Youtube Decentralized Database',
+      link: 'https://github.com/Phanurat/Youtube-Clone',
+      desc: 'ระบบแจ้งเตือน Line Bot แบบไม่จำกัดข้อความ'
+    },
+    {
+      title: 'Youtube Chanel Storyteller By Whisper',
+      link: 'https://www.youtube.com/@MagicofStoryteller',
+      desc: 'เล่าเรื่องราวด้วยเสียง'
+    },
+    {
+      title: 'Create NFT to OpenSea',
+      link: 'https://opensea.io/account/collected',
+      desc: 'สร้าง NFT ขายใน OpenSea'
     }
   ];
   const projectsHtml = projects.map(p => `
